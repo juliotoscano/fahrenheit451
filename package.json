@@ -1,0 +1,25 @@
+{
+  "name": "fahrenheit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmop/fahrenheit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmop/fahrenheit/issues"
+  },
+  "homepage": "https://github.com/dmop/fahrenheit#readme",
+  "dependencies": {
+    "mqtt": "^2.14.0",
+    "node-dht-sensor": "0.0.32",
+    "python-shell": "^0.4.0"
+  }
+}
